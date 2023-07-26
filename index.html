@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./source/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Desafio CSS 03 - YouTube Clone Grid Display</title>
+  </head>
+  <body>
+    <head>
+      <nav class="header">
+        <div class="menu-brand">
+          <div><img src="./assets/menu.svg" alt="Menu" /></div>
+          <div><img src="./assets/yt-logo.svg" alt="YouTube Logo" /></div>
+        </div>
+        <div class="search-bar">
+          <p>Pesquisar</p>
+          <div class="search-btn">
+            <div>
+              <img title="Pesquisar" src="./assets/search.svg" alt="Search" />
+            </div>
+          </div>
+        </div>
+        <div class="profile">
+          <div class="profile-icon">
+            <img src="./assets/video.svg" alt="Video" />
+          </div>
+          <div class="profile-icon">
+            <img src="./assets/bell.svg" alt="Bell" />
+          </div>
+          <div>
+            <img class="avatar" src="./assets/avatar.jpg" alt="Avatar" />
+          </div>
+        </div>
+      </nav>
+    </head>
+    <main>
+      <aside class="sidemenu">
+        <nav class="sidenavbar">
+          <div>
+            <img src="./assets/sidenav/home.svg" alt="Início" />
+            <p class="ft-700">Início</p>
+          </div>
+          <div>
+            <img src="./assets/sidenav/compass.svg" alt="Explorar" />
+            <p>Explorar</p>
+          </div>
+          <div>
+            <img src="./assets/sidenav/yt.svg" alt="Inscrições" />
+            <p>Inscrições</p>
+          </div>
+          <div>
+            <img src="./assets/sidenav/disc.svg" alt="YouTube Music" />
+            <p>YouTube Music</p>
+          </div>
+          <div>
+            <img src="./assets/sidenav/thumbs-up.svg" alt="Vídeos que gostei" />
+            <p>Vídeos que gostei</p>
+          </div>
+          <div>
+            <img src="./assets/sidenav/clock.svg" alt="Assistir mais tarde" />
+            <p>Assistir mais tarde</p>
+          </div>
+          <div>
+            <img src="./assets/sidenav/download.svg" alt="Downloads" />
+            <p>Downloads</p>
+          </div>
+          <div>
+            <img src="./assets/sidenav/film.svg" alt="Filmes" />
+            <p>Filmes</p>
+          </div>
+          <div>
+            <img src="./assets/sidenav/book.svg" alt="Aprender" />
+            <p>Aprender</p>
+          </div>
+          <div>
+            <img src="./assets/sidenav/award.svg" alt="Esportes" />
+            <p>Esportes</p>
+          </div>
+        </nav>
+      </aside>
+      <section class="main-list">
+        <div class="recommended-card">
+          <img src="./assets/sidebar/video_01.png" alt="Video 01" />
+          <div class="card-info">
+            <img
+              class="avatar-channel"
+              src="./assets/channel-dio-avatar.png"
+              alt="Avatar Dio"
+            />
+            <div>
+              <p>Geração Tech Unimed - BH - Ciência de Dados</p>
+              <div class="card-info-sub">
+                <span> 24 mil visualizações</span>
+                <span> Transmitido há 2 meses</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="recommended-card">
+          <img src="./assets/sidebar/video_02.png" alt="Video 02" />
+          <div class="card-info">
+            <img
+              class="avatar-channel"
+              src="./assets/channel-dio-avatar.png"
+              alt="Avatar Dio"
+            />
+            <div>
+              <p>Scrum Talks</p>
+              <div class="card-info-sub">
+                <span> 11 mil visualizações</span>
+                <span> Transmitido há 2 dias</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="recommended-card">
+          <img src="./assets/sidebar/video_03.png" alt="Video 03" />
+          <div class="card-info">
+            <img
+              class="avatar-channel"
+              src="./assets/channel-dio-avatar.png"
+              alt="Avatar Dio"
+            />
+            <div>
+              <p>Machine Learning Avançado - Fast Track</p>
+              <div class="card-info-sub">
+                <span> 17 mil visualizações</span>
+                <span> Transmitido há 7 dias</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="recommended-card">
+          <img src="./assets/sidebar/video_04.png" alt="Video 04" />
+          <div class="card-info">
+            <img
+              class="avatar-channel"
+              src="./assets/channel-dio-avatar.png"
+              alt="Avatar Dio"
+            />
+            <div>
+              <p>Global Skills #2 - Project Planning</p>
+              <div class="card-info-sub">
+                <span> 24 mil visualizações</span>
+                <span> Transmitido há 1 mês</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="recommended-card">
+          <img src="./assets/sidebar/video_05.png" alt="Video 05" />
+          <div class="card-info">
+            <img
+              class="avatar-channel"
+              src="./assets/channel-dio-avatar.png"
+              alt="Avatar Dio"
+            />
+            <div>
+              <p>Como aprender a programar Python do ZERO</p>
+              <div class="card-info-sub">
+                <span> 31 mil visualizações</span>
+                <span> Transmitido há 4 dias</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="recommended-card">
+          <img src="./assets/sidebar/video_01.png" alt="Video 01" />
+          <div class="card-info">
+            <img
+              class="avatar-channel"
+              src="./assets/channel-dio-avatar.png"
+              alt="Avatar Dio"
+            />
+            <div>
+              <p>Geração Tech Unimed - BH - Ciência de Dados</p>
+              <div class="card-info-sub">
+                <span> 24 mil visualizações</span>
+                <span> Transmitido há 2 meses</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="recommended-card">
+          <img src="./assets/sidebar/video_02.png" alt="Video 02" />
+          <div class="card-info">
+            <img
+              class="avatar-channel"
+              src="./assets/channel-dio-avatar.png"
+              alt="Avatar Dio"
+            />
+            <div>
+              <p>Scrum Talks</p>
+              <div class="card-info-sub">
+                <span> 11 mil visualizações</span>
+                <span> Transmitido há 2 dias</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="recommended-card">
+          <img src="./assets/sidebar/video_03.png" alt="Video 03" />
+          <div class="card-info">
+            <img
+              class="avatar-channel"
+              src="./assets/channel-dio-avatar.png"
+              alt="Avatar Dio"
+            />
+            <div>
+              <p>Machine Learning Avançado - Fast Track</p>
+              <div class="card-info-sub">
+                <span> 17 mil visualizações</span>
+                <span> Transmitido há 7 dias</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="recommended-card">
+          <img src="./assets/sidebar/video_04.png" alt="Video 04" />
+          <div class="card-info">
+            <img
+              class="avatar-channel"
+              src="./assets/channel-dio-avatar.png"
+              alt="Avatar Dio"
+            />
+            <div>
+              <p>Global Skills #2 - Project Planning</p>
+              <div class="card-info-sub">
+                <span> 24 mil visualizações</span>
+                <span> Transmitido há 1 mês</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="recommended-card">
+          <img src="./assets/sidebar/video_05.png" alt="Video 05" />
+          <div class="card-info">
+            <img
+              class="avatar-channel"
+              src="./assets/channel-dio-avatar.png"
+              alt="Avatar Dio"
+            />
+            <div>
+              <p>Como aprender a programar Python do ZERO</p>
+              <div class="card-info-sub">
+                <span> 31 mil visualizações</span>
+                <span> Transmitido há 4 dias</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="recommended-card">
+          <img src="./assets/sidebar/video_01.png" alt="Video 01" />
+          <div class="card-info">
+            <img
+              class="avatar-channel"
+              src="./assets/channel-dio-avatar.png"
+              alt="Avatar Dio"
+            />
+            <div>
+              <p>Geração Tech Unimed - BH - Ciência de Dados</p>
+              <div class="card-info-sub">
+                <span> 24 mil visualizações</span>
+                <span> Transmitido há 2 meses</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="recommended-card">
+          <img src="./assets/sidebar/video_02.png" alt="Video 02" />
+          <div class="card-info">
+            <img
+              class="avatar-channel"
+              src="./assets/channel-dio-avatar.png"
+              alt="Avatar Dio"
+            />
+            <div>
+              <p>Scrum Talks</p>
+              <div class="card-info-sub">
+                <span> 11 mil visualizações</span>
+                <span> Transmitido há 2 dias</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
